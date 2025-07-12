@@ -2,9 +2,9 @@
 
 # Simon Says Game
 This is my first project. 
-A fun memory game based on the classic Simon Says concept. It generates a random color sequence , you have to enter the correct sequence. Each round generate random sequence if you 
-give correct sequence you will level up to next level, and you gain one point.
-if you enter a wrong sequence then Game will be over. Your score and High score will be 
+A fun memory game based on the classic Simon Says concept. It generates a random color sequence , you have to enter the correct sequence. Each round generate random color if you 
+give correct sequence from the beginning you will level up to next level, and you gain one point. And then you will progress to next round. 
+if you enter a wrong sequence in any round then Game will be over. Your score and High score will be 
 display on your screen .
 
 ## Technology Used

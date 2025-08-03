@@ -1,10 +1,12 @@
+*{
+        font-family: "Montserrat" ,Arial, Helvetica, sans-serif;
+}
+
 body{
     text-align: center;
     background-color: #F1FAEE;
     color:#1D3557;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+
 }
 h2 b{
     color: red; 
@@ -15,12 +17,27 @@ h2 b{
 }
 
 .box{
-    height: 200px;
-    width: 200px;
+    height: 12.5rem;
+    width: 12.5rem;
     border-radius: 20%;
     border: 10px solid black;
     margin: 2rem;
 
+}
+.line-1 .box{
+    margin-right: 1rem;
+}
+.line-2 .box{
+    margin-left : 1rem;
+}
+.start{
+   width: 6rem;
+   height: 3.5rem;
+   font-size: 1.5rem;
+   border-radius: 1rem;
+   font-weight: 500;
+   cursor: pointer;
+   margin-top: 1.25rem;
 }
 .red{
     background-color: #E63946;
@@ -44,7 +61,7 @@ h2 b{
 }
 @media (max-width : 600px){
     .box{
-        width: 130px;
-        height: 130px;
+        width: 8rem;
+        height: 8rem;
     }
 }
